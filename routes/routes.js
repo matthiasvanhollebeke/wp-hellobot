@@ -18,8 +18,7 @@ module.exports = function(config){
 
   module._setupHeartbeat = function(app) {
     app.get('/', function(request, response) {
-      response.set('Content-Type', 'text/html');
-      response.status(200).send(new Buffer('<h2>Test String</h2>'));
+      response.status(200).send("<img href='https://gph.is/24IKcSC'>");
     })
   }
 
