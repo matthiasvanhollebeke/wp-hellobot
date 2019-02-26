@@ -1,2 +1,2 @@
 # wp-hellobot
-Workplace Hello Bot
+A sample HelloBot for Workplace. It just says hello! :)
