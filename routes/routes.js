@@ -18,7 +18,7 @@ module.exports = function(config){
 
   module._setupHeartbeat = function(app) {
     app.get('/', function(request, response) {
-      response.status(200).send("Hello, I'm up and running!");
+      response.status(200).send("<h1>Hello, I'm up and running!</h1>");
     })
   }
 
