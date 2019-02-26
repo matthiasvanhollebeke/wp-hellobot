@@ -18,7 +18,8 @@ module.exports = function(config){
 
   module._setupHeartbeat = function(app) {
     app.get('/', function(request, response) {
-      response.status(200).send("<h1>Hello, I'm up and running!</h1>");
+      response.set('Content-Type', 'text/html');
+      response.status(200).send(new Buffer('<h2>Test String</h2>'));
     })
   }
 
