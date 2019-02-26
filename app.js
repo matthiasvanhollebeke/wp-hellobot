@@ -10,7 +10,7 @@ const express = require('express'),
 /* Loads dependencies */
 const config = require('./config/config.js'),
       routes = require('./routes/routes.js')(config),
-      graph = require('./routes/fb-graph-api.js')(request, config),
+      graph = require('./routes/workplace graph/fb-graph-api.js')(request, config),
       utils = require('./utils/utils.js')(crypto, config),
       messages = require('./utils/messages.js')(graph);
 
