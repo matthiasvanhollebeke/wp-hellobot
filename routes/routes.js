@@ -19,7 +19,7 @@ module.exports = function(config){
   module._setupHeartbeat = function(app) {
     app.get('/', function(request, response) {
       response.set('Content-Type', 'text/html');
-      response.status(200).send('<iframe src="https://giphy.com/embed/a0h7sAqON67nO" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>');
+      response.status(200).send('<img src="https://media.giphy.com/media/a0h7sAqON67nO/giphy.gif" />');
     })
   }
 
